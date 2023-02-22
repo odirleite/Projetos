@@ -1,8 +1,12 @@
+
+/* Import fonts from google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Lexend&family=Roboto+Slab&family=Roboto:wght@400;700&display=swap");
 
+/* Reset CSS */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,6 +19,7 @@ nav {
   box-shadow: 0 10px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Banner/Hero configuration */
 .banner {
   background: url(../img/banner.jpg);
   background-size: cover;
@@ -42,6 +47,7 @@ nav {
     -1px -1px #000, 1px -1px #000, -1px 1px #000;
 }
 
+/* Title from line configuration */
 .title {
   width: 100%;
   margin: 0 auto;
@@ -69,6 +75,7 @@ nav {
   font-weight: 650;
 }
 
+/* Section About Configuration */
 #about > .card {
   background-image: url(../img/background-green.png);
   background-size: cover;
@@ -114,6 +121,8 @@ ul {
   width: 100%;
 }
 
+
+/* Partners Configuration */
 #partners {
   display: flex;
   flex-wrap: wrap;
@@ -127,6 +136,8 @@ ul {
   margin: 20px 15px 20px 15px;
 }
 
+
+/* Contact Configuration */
 #contact{
   display: flex;
   flex-direction: column;
@@ -174,6 +185,8 @@ ul {
   font-weight: bold;
 }
 
+
+/* Footer Configuration */
 footer{
   margin-top: 15px;
   background-color: #1d1d1d;
@@ -186,6 +199,8 @@ footer > .container > .row > .col-2 > img{
   width: 50px;
 }
 
+
+/* Footer Webs Configuration */
 .redes{
   display: flex;
   justify-content: space-around;
@@ -215,16 +230,24 @@ footer > .container > .row > .col-2 > img{
     border-radius: 3.5px;
   }
 
+  .partners-images img {
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    margin: 20px 15px 20px 80px;
+  }
+
 
 }
 /*Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) { 
+
   
 }
 
 /*Medium devices (tablets, less than 992px)*/
 @media (max-width: 991.98px) { 
- 
+
  }
 
 /*Large devices (desktops, less than 1200px)*/
