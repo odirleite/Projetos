@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="./img/logoSM.png"
+              alt="Bootstrap"
+              width="30"
+              height="24"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#about">Quem Somos</a>
+              <a class="nav-link" href="#services">Serviços</a>
+              <a class="nav-link" href="#partners">Parceiros</a>
+              <a class="nav-link" href="#contact">Contatos</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="banner">
+      <h2 class="logo-title">Hospital Seguro tem:</h2>
+      <img src="./img/logo.png" alt="" />
+    </div>
+    <div class="container text-center">
+      <div id="about">
+        <div class="title">
+          <div class="line"></div>
+          <h2>Quem Somos</h2>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text">
+              Realizamos a gestão e reparação de equipamentos eletromédicos e
+              infraestrutura hospitalar.<br />Trabalhando junto com a
+              instituição, focando nos custos existentes e qualificação das
+              equipes assistenciais, garantindo a segurança dos pacientes e a
+              sustentabilidade do negócio.<br />Operamos em Hospitais,
+              Laboratórios, Clínicas e Unidades de Pronto Atendimento.<br />Através
+              do nosso software, disponibilizamos aos gestores hospitalares
+              informações precisas do custo operacional para a tomada de
+              decisões e o desenvolvimento de planos de ação eficazes.
+            </p>
+          </div>
+          <img src="./img/local.jpg" class="card-img-bottom" alt="..." />
+        </div>
+      </div>
+      <div id="services">
+        <div class="title">
+          <div class="line"></div>
+          <h2 id="services">Serviços</h2>
+        </div>
+        <div class="content">
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="./img/invent.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Inventário</h5>
+                  <ul>
+                    <li>
+                      Registro do Parque Tecnológico através de software de Gestão hospitalar. Controle e rastreabilidade dos equipamentos e registro histórico da vida do equipamento, desde sua aquisição até a sua desativação.
+                    </li>
+                    <!--<li>Controle da Rastreabilidade dos Equipamentos.</li>
+                    <li>Registro Histórico da Ficha Vida dos Equipamentos.</li>-->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./img/projetos.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Planejamento e Projetos</h5>
+                  <ul>
+                    <li>Plano de gestão de equipamento de saúde (PGES) e execução com foco na sustentabilidade do negócio
+                      hospitalar. Planejamento da rede de gases medicinais e central de vácuo clínico.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./img/consultoria.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Consultoria</h5>
+                  <ul>
+                    <li>Aquisições de equipamentos médicos. Acreditação de prestadores de serviço hospitalar (ONA). Implantação de serviço de engenharia clínica. Gestão de custos do parque tecnológico e consultoria para execução de obras em setores críticos como UTI's e centros cirúrgicos. </li>
+                    <!--<li>
+                      Acreditação de Prestadores de Serviço Hospitalar (ONA).
+                    </li>
+                    <li>Implantação de Serviço de Engenharia Clínica.</li>
+                    <li>Gestão de Custos do Parque Tecnológico.</li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./img/gestao.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Gestão</h5>
+                  <ul>
+                    <li>Realização da manutenção corretiva, preventiva, testes de sergurança elétrico e calibração dos equipamentos hospitalares, acompanhamento de serviços de terceiros, capacitação do corpo clínico no uso correto dos equipamentos, gerenciamento de contratos de fornecedores, procedimentos operacionais padrão(POP), relatórios gerenciais através de software de gerenciamento.</li>
+                    <!-- <li>
+                      Capacitação dos Profissionais no Uso dos Equipamentos.
+                    </li>
+                    <li>Qualificação de Fornecedores.</li>
+                    <li>Gerenciamento de Contratos de Fornecedores.</li>
+                    <li>Procedimentos Operacionais Padrão (POP).</li>
+                    <li>Relatórios Gerenciais.</li>
+                    <li>Software de Gerenciamento.</li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col">
+              <div class="card">
+                <img
+                  src="./img/inventario.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Inventário</h5>
+                  <ul>
+                    <li>Manutenção Preventiva.</li>
+                    <li>Manutenção Corretiva.</li>
+                    <li>Calibração em Equipamentos Médicos.</li>
+                    <li>Segurança Elétrica.</li>
+                  </ul> 
+                </div>
+              </div>
+            </div> -->
+            <div class="col">
+              <div class="card">
+                <img src="./img/inmetro.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Inmetro</h5>
+                  <ul>
+                    <li>
+                      Permissionária para Realizar Manutenção e Calibração de
+                      Balanças e Esfigmomanômetro.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <!-- <img src="./img/projetos.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Projetos</h5>
+                  <ul>
+                    <li>
+                      Execução com Foco na Sustentabilidade do Negócio
+                      Hospitalar.
+                    </li>
+                    <li>Rede de Gases Medicinais.</li>
+                    <li>Central de Vácuo Clínio.</li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <!-- <img src="./img/gestao.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Gestão</h5>
+                  <ul>
+                    <li>
+                      Consultoria para Execução de Obras em Setores Críticos
+                      como UTI's e Centros Cirúrgicos.
+                    </li> 
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="partners">
+        <div class="title">
+          <div class="line"></div>
+            <h2>Nossos Parceiros</h2>
+        </div>
+        <div class="partners-images">
+          <img src="img/huLogo.png" alt="...">
+          <img src="img/santacasa.png" alt="">
+          <img src="img/astrogildo2.png" alt="...">
+          <img src="img/clinicamp.png" alt="...">
+          <img src="img/miguel.jpg" alt="...">  
+        </div>    
+      </div>
+      <div id="contact">
+        <div class="title">
+          <div class="line"></div>
+          <h2>Contato</h2>
+        </div>
+        <div class="sendMessage">
+          <h2>Em busca de um profissional?</h2>
+          <p>Envie uma mensagem para nós!</p>
+          <div class="form">
+            <label for="name">Nome</label>
+            <input type="text" name="name" placeholder="Escreva seu nome..." />
+            <br />
+            <label for="email">Email</label>
+            <input
+              type="text"
+              name="email"
+              placeholder="Escreva seu email..."
+            />
+            <br />
+            <label for="tell">Telefone</label>
+            <input
+              type="text"
+              name="tell"
+              placeholder="Escreva seu Telefone..."
+            />
+            <br />
+            <label for="message">Mensagem</label>
+            <textarea
+              name="message"
+              id="areaMessage"
+              cols="30"
+              rows="10"
+              placeholder="Escreva qual sua necessidade..."
+            ></textarea>
+            <button>Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-2">
+            <img src="./img/logoSM.png" alt="">
+          </div>
+          <div class="col-5">
+            <p>R. Sen. Mendonça, 301 - Centro, Pelotas/RS (CEP: 96015-200)</p>
+          </div>
+          <div class="col-5">
+            <p>
+              (53) 3029-0482 <br>
+              (53) 98461-7796 <br>
+              (53) 99179-8541 <br>
+            </p>
+          </div>
+          <div class="col-12">
+            <p>engenharia@sulmedengenharia.com</p>
+            <div class="redes">
+              <a href="https://api.whatsapp.com/send?phone=5553984617796" target="_blank">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a href="https://www.facebook.com/sulmedengenhariahospitalar/" target="_blank">
+                <i class="bi bi-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/sulmedengenhariahospitalar/" target="_blank">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

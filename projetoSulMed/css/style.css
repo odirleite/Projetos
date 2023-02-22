@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend&family=Roboto+Slab&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/*Navbar Configuration*/
+nav {
+  padding: 0px 20px 10px 5px;
+  box-shadow: 0 10px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+.banner {
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 55px;
+}
+
+.banner > img {
+  width: 450px;
+  filter: drop-shadow(0 0 0.3rem black);
+}
+
+.banner > h2 {
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  color: #f1f1f1;
+
+  text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000, 1px 1px #1d1d1d,
+    -1px -1px #000, 1px -1px #000, -1px 1px #000;
+}
+
+.title {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.title > .line {
+  width: 60%;
+  height: 10px;
+  background-color: #8cc63f;
+  border-radius: 3.5px;
+}
+
+.title > h2 {
+  margin-top: 7px;
+  padding: 0 10px 0 10px;
+  position: absolute;
+  background-color: white;
+  color: #007346;
+  font-family: "Roboto Slab", sans-serif;
+  font-weight: 650;
+}
+
+#about > .card {
+  background-image: url(../img/background-green.png);
+  background-size: cover;
+  border: none;
+  text-align: left;
+  color: #ededed;
+  line-height: 26px;
+  margin-bottom: 7px;
+}
+
+#about > .card > .card-body {
+  box-shadow: 0px 8.5px 5px 0px rgba(0, 0, 0, 0.75);
+  z-index: 1;
+}
+
+#about > .card > img {
+  border: none;
+}
+
+.card-img-top {
+  width: 100px;
+}
+
+.col > .card {
+  border: none;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  text-align: justify;
+  list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 10 10"><circle fill="green" cx="7" cy="7" r="2"/></svg>');
+}
+
+.card-title {
+  color: #007346;
+  font-weight: bold;
+}
+
+.card-body{
+  width: 100%;
+}
+
+#partners {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.partners-images img {
+  width: 230px;
+  height: 100px;
+  padding: 5px;
+  margin: 20px 15px 20px 15px;
+}
+
+#contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sendMessage{
+  background-image: url(../img/background-green.png);
+  padding: 20px;
+  border-radius: 10px;
+  color: #f4f4f4;
+  line-height: 26px;
+  margin-bottom: 7px;
+}
+
+.sendMessage > h2{
+  font-weight: bold;
+}
+
+.sendMessage > .form{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.sendMessage > .form > label{
+  font-weight: 500;
+}
+
+.sendMessage > .form > input, textarea, button{
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.sendMessage > .form > textarea{
+  resize: none;
+  margin-bottom: 15px;
+}
+
+.sendMessage > .form > button{
+  width: 100%;
+  background-color: #61CE70;
+  border: 2px solid #007346;
+  color: #010;
+  font-weight: bold;
+}
+
+footer{
+  margin-top: 15px;
+  background-color: #1d1d1d;
+  border-radius: 10px 10px 0px 0px;
+  padding: 25px 10px 25px 10px;
+  color: #f1f1f1;
+}
+
+footer > .container > .row > .col-2 > img{
+  width: 50px;
+}
+
+.redes{
+  display: flex;
+  justify-content: space-around;
+}
+
+.redes > a{
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+/* Responsive */
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  .banner > img {
+    width: 250px;
+    filter: drop-shadow(0 0 0.3rem black);
+}
+
+  .logo-title {
+    margin-top:-150px
+  }
+
+  .title > .line {
+    width: 85%;
+    height: 10px;
+    background-color: #8cc63f;
+    border-radius: 3.5px;
+  }
+
+
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+  
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+ 
+ }
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+}
+
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { 
+
+}
